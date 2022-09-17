@@ -263,10 +263,12 @@ nav {
         margin-right: 0;
     }
 
-    .center-info_greeting {
-      font-size: 50px;
-      font-weight: bold;
-      align-content: center;
+    .center-info_about {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
     }
 
     #contact-form-container {
