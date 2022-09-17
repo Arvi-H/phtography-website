@@ -182,6 +182,34 @@ button {
     font-weight: bold;
 }
 
+/* Reviews Page */
+#reviews-heading {
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.center-info_reviews {
+    width: 70%;
+    margin: 2rem auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review-item {
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.review {
+    margin: 0;
+}
+
+.author {
+    font-weight: bold;
+}
+
+
 @media only screen and (max-width: 670px) {
     .home-page_content {
         flex-direction: column-reverse;
