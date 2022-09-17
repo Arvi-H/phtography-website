@@ -7,7 +7,6 @@ body {
  
 /* Home Page */
 .home-page_content {
-    /* Position in the center */
     margin: 0; 
     width: 75%;
     position: absolute;
@@ -15,7 +14,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* Image and content side by side */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,28 +36,11 @@ button {
     text-decoration: none;
     padding: 10px 32px;
     text-align: center;
-
     font-size: 18px;
     color: white;
 }
 
-/* About Page */
-
-
-@media only screen and (max-width: 670px) {
-    .home-page_content {
-        flex-direction: column-reverse;
-        width: 150%;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-
-
-    .center-info p { 
-        margin-right: 0;
-    }
-}
+/* Portfolio Page */
 
 .nav-link {
     color: black;
@@ -180,4 +161,38 @@ button {
 .gallery__item--15 {
   grid-column: 4 / span 2;
   grid-row: 12 / span 1;
+}
+
+/* About Page */
+.center-info_about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+}
+
+.center-info_greeting {
+    font-size: 100px;
+    font-weight: bold;
+    align-content: center;
+}
+
+#bold-text {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 670px) {
+    .home-page_content {
+        flex-direction: column-reverse;
+        width: 150%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .center-info p { 
+        margin-right: 0;
+    }
 }
