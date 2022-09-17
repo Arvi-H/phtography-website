@@ -40,6 +40,9 @@ button {
     color: white;
 }
 
+nav {
+    z-index: 1000;
+}
 /* Portfolio Page */
 
 .nav-link {
@@ -210,6 +213,16 @@ button {
 }
 
 /* Contact Page */
+.container-c {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form-container {
+    width: 40%;
+    margin-top: 5%;
+}
+
 .contact-form-text {
     width: 100%;
     margin: 2% 0;
@@ -236,13 +249,6 @@ button {
     color: gray;
 }
 
-#contact-form-container {
-    width: 40%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 @media only screen and (max-width: 670px) {
     .home-page_content {
@@ -253,8 +259,17 @@ button {
         align-content: center;
     }
 
-
     .center-info p { 
         margin-right: 0;
+    }
+
+    #contact-form-container {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    .review-item {
+        width: 90%;
+        margin-bottom: 2%;
     }
 }
