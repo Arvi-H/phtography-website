@@ -263,6 +263,12 @@ nav {
         margin-right: 0;
     }
 
+    .center-info_greeting {
+      font-size: 50px;
+      font-weight: bold;
+      align-content: center;
+    }
+
     #contact-form-container {
         width: 70%;
         margin-top: 5%;
