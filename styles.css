@@ -183,7 +183,7 @@ button {
 }
 
 /* Reviews Page */
-#reviews-heading {
+.page-heading {
     margin-left: 12%;
     margin-top: 2%;
 }
@@ -209,6 +209,40 @@ button {
     font-weight: bold;
 }
 
+/* Contact Page */
+.contact-form-text {
+    width: 100%;
+    margin: 2% 0;
+    border: 0;
+    border-bottom: 1px solid;
+    background: white;
+    padding: 15px 5px;
+}
+
+#contact-form__submit-btn {
+    float: right;
+    text-decoration: none;
+    
+    color: #000000;
+    background-color: white;
+    
+    font-size: 1.15em;
+    border: 0;
+    
+    cursor: pointer;
+}
+
+#contact-form__submit-btn:hover {
+    color: gray;
+}
+
+#contact-form-container {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 @media only screen and (max-width: 670px) {
     .home-page_content {
